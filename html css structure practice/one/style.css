@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: white;
+}
+#whole{
+    display:grid;
+}
+#main{
+    display:flex;
+    width:100vw;
+    height: 80vh;
+}
+#right{
+    display: grid;
+      width:80vw;
+    height: 70vh;
+    background-color: aqua;
+    color:black;
+}
+#card{
+    display:flex;
+    gap:5px;
+}
+#left{
+    background-color: blue;
+    color: white;
+    width:20vw;
+    height: 70vh;
+}
+#nav{
+    background-color: pink;
+    width:100vw;
+    height: 25vh;
+}
+#large{
+    width:60vw;
+    height: 15vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+background-color: blueviolet;
+}
+#c1{
+    width: 20vw;
+    height: 10vh;
+    margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: yellow;
+      border-radius: 10px;
+      border:1px solid black;
+    /* margin-left: 15px;
+    margin-right: 10px; */
+}
+#c2{
+    width: 20vw;
+    height: 10vh;
+    margin-top: 10px;
+      margin-bottom: 10px;
+    /* margin-left: 15px;
+    margin-right: 10px; */
+    background-color: green;
+     border-radius: 10px;
+      border:1px solid black;
+}
+#c3{
+    width: 20vw;
+    height: 10vh;
+    margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: grey;
+    /* margin-left: 15px;
+    margin-right: 10px; */
+     border-radius: 10px;
+      border:1px solid black;
+}
+#panel{
+    display: flex;
+gap: 20px;
+}
+#p1{
+    width:20vw;
+    height: 15vh;
+    background-color: rgb(70, 99, 10);
+      border-radius: 10px;
+      border:1px solid black;
+      margin-left: 10px;
+
+}
+#p2{
+    width:20vw;
+    height: 15vh;
+    background-color: yellowgreen;
+      border-radius: 10px;
+      border:1px solid black;
+
+}
+#foot{
+    width:70vw;
+    height: 20vh;
+       background-color: yellow;
+      border-radius: 10px;
+      border:1px solid black;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+}
