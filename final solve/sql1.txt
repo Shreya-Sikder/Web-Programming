@@ -1,0 +1,14 @@
+CREATE TABLE employee(
+emp_id INT ,
+emp_name VARCHAR(50),
+salary DECIMAL(10,5),
+joining_date DATE
+
+);
+INSERT INTO employee VALUES( 1,'Rahim', 35000,24-12-2003);
+SELECT emp_name,salary FROM `employee` WHERE salary>20000
+SELECT  SUM(salary)
+FROM employee
+SELECT emp_name
+FROM employee
+WHERE emp_name LIKE '%karim%';
